@@ -1,0 +1,68 @@
+{"intents": [
+    
+    {"tag": "greetings",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Hey", "Hola", "Hello", "Good morning", "Good evening", "Good afternoon"],
+    "responses": ["Hello!", "Hey!","Good to see you again!", "Hi there, how can I help?", "What can I do for you ?"]
+    },
+
+    {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "Good bye", "Goodnight"],
+    "responses": ["See you later!", "Have a great day!", "Goodbye!"]
+    },
+
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+    "responses": ["You're welcome!", "Anytime!", "My pleasure!"]
+    },
+
+    {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Write someting please?"]
+    },
+
+    {"tag":"age",
+    "patterns": ["How old are you?", "What's your age?", "What is your age?"],
+    "responses": ["I'm a computer program, I don't have an age!"]
+    },
+
+    {"tag":"name",
+    "patterns": ["What's your name?", "What are you called?", "Who are you?"],
+    "responses": ["I'm a chatbot program, you can call me Shoaib's Bot!"]
+    },
+
+    {"tag":"weather",
+    "patterns": ["What's the weather like?", "How's the weather today?", "What's the weather today?"],
+    "responses": ["I'm a computer program, I don't have the ability to check the weather! But If you are in Germany, it's always raining!"]
+    },
+
+    {"tag":"time",
+    "patterns": ["What's the time?", "What time is it?", "Can you tell me the time?"],
+    "responses": ["I'm a computer program, I don't have the ability to tell the time!"]
+    },
+
+    {"tag":"date",
+    "patterns": ["What's the date today?", "What's today's date?", "Can you tell me the date?"],
+    "responses": ["I'm a computer program, I don't have the ability to tell the date!"]
+    },
+
+    {"tag":"joke",
+    "patterns": ["Tell me a joke", "Do you know any jokes?", "Can you tell me a joke?"],
+    "responses": ["Why did the scarecrow win an award? Because he was outstanding in his field!"]
+    },
+
+    {"tag":"meaning",
+    "patterns": ["What is the meaning of life?", "What's the meaning of life?", "Why are we here?"],
+    "responses": ["The meaning of life is to give life meaning!"]
+    },
+
+    {"tag":"help",
+    "patterns": ["Can you help me?", "What can you do for me?", "How can you help me?"],
+    "responses": ["I can guide you through the mysteries of life, the universe and everything. Just ask!"]
+    },
+    
+    {"tag":"advice",
+    "patterns": ["Can you give me some advice?", "What should I do?", "Can you help me with something?"],
+    "responses": ["Take a deep breath and relax!", "Life's too short to worry about things, just have fun!", "Find love in everything you do!"]
+    }
+
+]}
